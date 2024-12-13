@@ -1,10 +1,99 @@
+@media screen and (max-width:576px)
+{
+.article-card{
+    position: relative;
+    left: 1vh;
+}
+.pflex{
+    display: none;
+}
+.containergrid{
+    
+    position: relative;
+    right: 10vh;
+    
+}
+header img{
+    position: relative;
+   left: 50vh;
+   
+  
+}
+header h1{
+     white-space: nowrap;        /* tforcer le texte yb9a f une seule ligne  */
+     position: relative;
+     right: 9vh;
+     
+}
+.nav-bar {
+    
+    
+  position: relative;
+  top: 70%;
+  right: 47vh;
+   
+
+}
+
+.sectionprincipale h1 {
+    position: relative;
+    right: 10%;
+}
+.sectionprincipale img{
+    display: none;
+}
+.xbutton{
+    display: none;
+}
+
+
+
+}
+
+
+@media screen and (min-width:577px) and (max-width:768px)
+{
+    .article-card{
+        position: relative;
+        left: 13vh;
+    }
+    .pflex{
+        display: none;
+    }
+    .containergrid{
+        position: relative;
+        left: 3vh;
+    }
+    header img{
+        position: relative;
+        right: 3vh;
+       top: 1vh;
+    }
+    .sectionprincipale h1 {
+        position: relative;
+        right: 10%;
+    }
+    .sectionprincipale img{
+        display: none;
+    }
+    .xbutton{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
 
 body{
     padding: 0%;
     margin: 0%;
     overflow-x: hidden;
-    max-width: 1599px;
-    min-width: 768px;
+    
    
 }
 header{
@@ -152,9 +241,7 @@ h2{
 #articles {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
-   
+    gap: 4vh;
   }
   
   .article-card {
@@ -165,6 +252,7 @@ h2{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+   
   }
   
   .article-card:hover {
@@ -175,7 +263,6 @@ h2{
   .article-img {
     position: relative;
     right: 50px;
-   
     width: 100%;
     height: 220px;
     object-fit: cover;
